@@ -1,0 +1,148 @@
+[
+    {
+        "id": 1,
+        "producto": "Pan",
+        "precio": 1000,
+        "img": "./img/pan.jpg"
+    },
+    {
+        "id": 2,
+        "producto": "Leche",
+        "precio": 2000,
+        "img": "./img/leche.png"
+    },
+    {
+        "id": 3,
+        "producto": "Agua",
+        "precio": 2500,
+        "img":"./img/agua.jpg"
+    },
+    {
+        "id": 4,
+        "producto": "Manteca",
+        "precio": 500,
+        "img":"./img/manteca.jpg"
+    },
+    {
+        "id": 5,
+        "producto": "Yogurt",
+        "precio": 3000,
+        "img":"./img/yogurt.png"
+    },
+    {
+        "id": 6,
+        "producto": "Cafe",
+        "precio": 3500,
+        "img":"./img/cafe.jpg"
+    },
+    {
+        "id": 7,
+        "producto": "Harina",
+        "precio": 500,
+        "img":"./img/harina.webp"
+    },
+    {
+        "id": 8,
+        "producto": "Arroz",
+        "precio": 1000,
+        "img":"./img/arroz.jpg"
+    },
+    {
+        "id": 9,
+        "producto": "Fideos",
+        "precio": 1200,
+        "img":"./img/fideos.jpg"
+    },
+    {
+        "id": 10,
+        "producto": "Coca-Cola",
+        "precio": 2700,
+        "img":"./img/coca-cola.webp"
+    },
+    {
+        "id": 11,
+        "producto": "Cerveza",
+        "precio": 3100,
+        "img":"./img/cerveza.jpg"
+    },
+    {
+        "id": 12,
+        "producto": "Jabon",
+        "precio": 800,
+        "img":"./img/jabon.webp"
+    },
+    {
+        "id": 13,
+        "producto": "Galletitas",
+        "precio": 1200,
+        "img":"./img/galletitas.webp"
+    },
+    {
+        "id": 14,
+        "producto": "Hamburguesa",
+        "precio": 2800,
+        "img":"./img/hamburguesa.jpg"
+    },
+    {
+        "id": 15,
+        "producto": "Salchichas",
+        "precio": 900,
+        "img":"./img/salchichas.jpg"
+    },
+    {
+        "id": 16,
+        "producto": "Shampoo",
+        "precio": 3400,
+        "img":"./img/shampoo.jpg"
+    },
+    {
+        "id": 17,
+        "producto": "Vino",
+        "precio": 4000,
+        "img":"./img/vino.webp"
+    },
+    {
+        "id": 18,
+        "producto": "Jugo",
+        "precio": 500,
+        "img":"./img/jugo.jpg"
+    },
+    {
+        "id": 19,
+        "producto": "Manzana",
+        "precio": 400,
+        "img":"./img/manzana.jpg"
+    },
+    {
+        "id": 20,
+        "producto": "Banana",
+        "precio": 800,
+        "img":"./img/banana.jpg"
+    },
+    {
+        "id": 21,
+        "producto": "Bolsa de residuos",
+        "precio": 1500,
+        "img":"./img/bolsa.jpg"
+    },
+    {
+        "id": 22,
+        "producto": "Carne",
+        "precio": 5800,
+        "img":"./img/carne.jpg"
+    },
+    {
+        "id": 23,
+        "producto": "Pollo",
+        "precio": 3600,
+        "img":"./img/pollo.jpg"
+    },
+    {
+        "id": 24,
+        "producto": "Dulce de leche",
+        "precio": 2500,
+        "img":"./img/ddl.jpg"
+    }
+
+
+]

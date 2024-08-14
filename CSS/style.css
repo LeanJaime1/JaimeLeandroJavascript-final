@@ -1,0 +1,209 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/*INDEX*/
+.input {
+  width: 30%;
+}
+
+.añadir {
+  width: 10%;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #198754;
+  font-weight: bold;
+  color: white;
+}
+
+.añadir:hover {
+  color: #198754;
+  background-color: white;
+  box-shadow: 1px 1px 11px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 1px 11px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 1px 11px 0px rgba(0, 0, 0, 0.75);
+}
+
+.cards {
+  width: 45%;
+  display: inline-block;
+  border-radius: 20px;
+  vertical-align: center;
+  margin-left: 50px;
+}
+
+.cards:hover {
+  box-shadow: -1px 1px 17px 4px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px 1px 17px 4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 1px 17px 4px rgba(0, 0, 0, 0.75);
+}
+
+.card-body {
+  display: inline-flex;
+  align-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+}
+
+.cards .card {
+  flex-direction: row;
+  align-items: center;
+}
+
+.cards-lista {
+  display: flex;
+  padding: 10px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+hr {
+  margin: 10px;
+  width: 100%;
+}
+
+.productos {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+#añadidos {
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  height: -moz-min-content;
+  height: min-content;
+  width: 1000px;
+  background-color: #198754;
+  align-items: left;
+  border: 1px black solid;
+}
+
+.total-lista {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contenedor-lista {
+  margin-top: 20px;
+}
+
+#checkout {
+  text-decoration: none;
+  color: white;
+}
+
+
+.contador{
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  padding:3px;
+}
+
+/*IMAGENES*/
+.card img {
+  width: 300px;
+  height: 250px;
+}
+
+/*FORMULARIO*/
+h1 {
+  text-align: center;
+}
+
+.form-container {
+  color: white;
+  width: 50%;
+  text-align: center;
+  background-color: #198754;
+  border: 1px black solid;
+  padding: 10px;
+  margin-left: 25%;
+  margin-top: 2%;
+  border-radius: 10px;
+}
+
+.formulario {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.item-formulario {
+  display: flex;
+}
+
+.confirmar {
+  color: white;
+  text-decoration: none;
+}
+
+/*img lista*/
+.contenedor-titulo {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.img-lista {
+  width: 50px;
+  height: 50px;
+}
+
+/*img-home*/
+.home {
+  background-color: white;
+}
+
+/*boton vaciar*/
+#vaciar {
+  font-size: 16px;
+}
+
+.contenedor-lista {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/*RESPONSIVE*/
+@media (width <= 1000px) {
+  #disponibles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #disponibles .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #disponibles .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card-body button {
+    width: 30px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
