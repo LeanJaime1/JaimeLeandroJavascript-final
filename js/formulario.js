@@ -56,8 +56,8 @@ formulario.addEventListener('submit', obtenerDatos);
 
 
  //CONTADOR DE ARTICULOS DE CARRITO
- const contadorLista = () => {
-  const cantidadArticulos = lista.length;
+const contadorLista = () => {
+  const cantidadArticulos = lista.reduce((total, articulo) => total + articulo.cantidad, 0);
   const contador = document.getElementById('contador-carrito');
   contador.className = 'contador'
   contador.innerHTML = `${cantidadArticulos}`;
