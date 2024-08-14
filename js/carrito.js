@@ -90,7 +90,7 @@ function vaciarCarrito() {
 
  //CONTADOR DE ARTICULOS DE CARRITO
  const contadorLista = () => {
-  const cantidadArticulos = carritoStorage.length;
+  const cantidadArticulos = carritoStorage.reduce((total, articulo) => total + articulo.cantidad, 0);
   const contador = document.getElementById('contador-carrito');
   contador.className = 'contador'
   contador.textContent = `${cantidadArticulos}`;
